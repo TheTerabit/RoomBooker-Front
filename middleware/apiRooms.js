@@ -3,14 +3,14 @@ var request = require("request");
 
 //API URLs	
 var getAllRoomsUrl = {
-        url: "http://localhost:8080/rooms",
+        url: "https://room-booker-api.herokuapp.com/rooms",
         json: true
 	},
 	getRoomByIdUrl = {
-		url: "http://localhost:8080/rooms/",
+		url: "https://room-booker-api.herokuapp.com/rooms/",
 		json: true
 	},
-	postNewRoomUrl = "http://localhost:8080/rooms";
+	postNewRoomUrl = "https://room-booker-api.herokuapp.com/rooms";
     
     //function that ping API
     module.exports = {

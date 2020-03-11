@@ -3,16 +3,16 @@ var request = require("request");
 
 //API URLs	
 var getAllReservationsUrl = {
-        url: "http://localhost:8080/reservations",
+        url: "https://room-booker-api.herokuapp.com/reservations",
         json: true
     },
     getReservationById = {
-        url: "http://localhost:8080/reservations/",
+        url: "https://room-booker-api.herokuapp.com/reservations/",
         json: true
     },
-    updateReservationUrl = "http://localhost:8080/reservations/",
-    deleteReservationUrl = "http://localhost:8080/reservations/",
-    postNewReservationUrl = "http://localhost:8080/reservations";
+    updateReservationUrl = "https://room-booker-api.herokuapp.com/reservations/",
+    deleteReservationUrl = "https://room-booker-api.herokuapp.com/reservations/",
+    postNewReservationUrl = "https://room-booker-api.herokuapp.com/reservations";
     
     
     //function that ping API

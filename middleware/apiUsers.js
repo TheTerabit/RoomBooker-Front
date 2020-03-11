@@ -2,13 +2,13 @@ var request = require("request");
 
 
 //API URLs	
-var postNewUserUrl = "http://localhost:8080/users",
+var postNewUserUrl = "https://room-booker-api.herokuapp.com/users",
     getAllUsersUrl = {
-        url: "http://localhost:8080/users",
+        url: "https://room-booker-api.herokuapp.com/users",
         json: true
     }
     getUserByIdUrl = {
-        url: "http://localhost:8080/users/",
+        url: "https://room-booker-api.herokuapp.com/users/",
         json: true
     };
     
